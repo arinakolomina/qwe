@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F0D4;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex; /* Определяем этот элемент как flex-контейнер */
+    flex-direction: column; /* Элементы располагаются вертикально, в колонку */
+    align-items: center; /* Центрирует элементы по поперечной оси  */
+    justify-content: center; /* Центрирует элементы по главной оси ) */
+    margin: 0 auto; /* Центрирует контейнер по горизонтали в родительском элементе */
+    padding: 20px; /* Устанавливает внутренние отступы внутри контейнера */
+    max-width: 800px; /* Ограничивает максимальную ширину контейнера */
+}
+
+.img {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #5D3A29;
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #B39265;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #A4522D;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ul {
+    color: rgb(108, 83, 43);
+    font-size: 1rem;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+a {
+    color: #A67B55;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7B4B2A;
+}
+
+figcaption {
+    text-align: center;
+    color: #5D3A29;
+    font-style: italic;
+    margin-top: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рецепт</title>
+    <link rel="stylesheet" href="стиль.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Самый вкусный рецепт шарлотки</h1>
+        
+        <!-- Используем тег <picture> для оптимизации форматов изображений -->
+        <picture>
+            <source srcset="шарлотка.webp" type="image/webp"> <!-- WebP, когда поддерживается -->
+            <source srcset="шарлотка.png" type="image/png"> <!-- PNG как альтернатива -->
+            <img src="шарлотка.jpg" class="img" alt="Шарлотка" loading="lazy" style="object-fit: cover; object-position: center;">
+            <figcaption>Восхитительная шарлотка, приготовленная по нашему рецепту.</figcaption>
+        </picture>
+
+        <h2>Для теста:</h2>
+        <ul class="ingredients">
+            <li>Яйца - 4 шт.</li>
+            <li>Сахар - 60 г + 1 ч.л.</li>
+            <li>Мука - 160 г</li>
+            <li>Соль - 1 щепотка</li>
+            <li>Масло сливочное - 20 г</li>
+            <li>Разрыхлитель - 20 г</li>
+        </ul>
+
+        <h2>Для начинки:</h2>
+        <ul class="ingredients">
+            <li>Яблоки очищенные - 500-600 г</li>
+        </ul>
+
+        <h2>Процесс приготовления</h2>
+        <p>1. В глубокой миске взбейте яйца с сахаром.</p>
+        <p>2. В массу просейте муку с разрыхлителем через сито.</p>
+        <p>3. Перемешайте тесто.</p>
+        <p>4. Форму для выпечки смажьте маслом. Влейте в неё тесто.</p>
+        <p>5. Порежьте яблоки пополам и выложите поверх теста.</p>
+        <p>6. Запекайте шарлотку при 180 градусах в течение 40-50 минут под шапочкой из фольги. Приятного чаепития!</p>
+
+        <p>
+            <a href="https://lifehacker.ru/special/converter/">Перейти на кулинарный калькулятор</a>
+        </p>
+        <p>
+            <a href="https://www.russianfood.com/">Другие рецепты</a>
+        </p>
+    </div>
+</body>
+</html>
